@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Form Login | reconocimiento</title>
+    <link rel="stylesheet" href="master.css">
+  </head>
+
+  <body>
+
+    <!headerGet Your Certificate /header>
+
+    <div class="login-box">
+      <img class="avatar" src="img/Logo.png" alt="Logo de Inf">
+      <h1>Obtén tu Certificado</h1>
+
+      <form >
+
+        <main>
+          <!Usuario...>
+          <label for="">Nombre del Usuario</label>
+          <input required type="text" name="nombre" id="nombreUs"
+          placeholder="Ingrese su nombre">
+
+          <input id="submitBtn" type="button" value="Obtener">
+
+        </main>
+
+
+      </form>
+
+    </div>
+
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="./FileSaver.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
